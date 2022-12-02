@@ -7,7 +7,7 @@
 <p>-Para inicializar el proyecto sera requerido que se inicie el programa xampp con la caracteristicas apache y mysql activado.</p>
 <p>-Posteriormente sera instalada la base de datos consultorio que viene en el repositorio con la extension .sql</p>
 <p>-Despues de ello abriremos nuestra carpeta de la aplicacion de visual studio code.</p>
-<p>-En el archivo .env cambiaremos las variables como el nombre de la base de datos y usuario, en caso de existir alguna contraseña con xampp o mysql se dejara como se encuentra actualmente el archivo.</p>
+<p>-El archivo .env.example lo renombraremos como .env posteriormente cambiaremos las variables como el nombre de la base de datos y usuario, en caso de no existir alguna contraseña con xampp o mysql se dejara como se encuentra actualmente el archivo.</p>
 <p>-Para inicar la aplicacion abriremos una terminal dentro de la carpeta en visual studio code y ingresaremos el comando: php artisan serve</p>
 <p>-Asi podremos ingresar a la aplicacion proporcionada desde el link que nos indique la consola, o desde la url por defecto de laravel que es: http://127.0.0.1:8000</p>
 <p>-En este sistema se cuenta con una tienda en linea la cual es administrada con paypal y cuenta con roles como usuarios y administradores los cuales nos permiten realizar diversas funciones.</p>
